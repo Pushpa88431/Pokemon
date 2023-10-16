@@ -1,0 +1,59 @@
+
+
+body {
+  background: linear-gradient(
+    90deg,
+    #d06219,
+     #ffb700
+  );
+  font-family: 'Open Sans', sans-serif;
+  margin: 5rem;
+  text-align: center;
+  color: white;
+}
+
+input {
+  padding: 0.4rem;
+  margin-bottom: 2rem;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+
+#imageContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  color: blue;
+}
+
+
+
+.image-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.image-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.image-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.image-card .card-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 10px 0;
+}
